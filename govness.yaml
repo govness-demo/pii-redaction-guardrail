@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "northbridge-civic-tech.pii-redaction-guardrail"
+name: "Personal data redaction guardrail"
+type: "policy"
+version: "1.6.0"
+summary: "Guardrail that detects and redacts personal identifiers in agent inputs and outputs, configurable per country."
+description: "Rules and patterns for national ID numbers, phone numbers and addresses in 30 countries, applied before data leaves the administration."
+publisher:
+  environment: "northbridge-civic-tech"
+  body: "Northbridge Civic Tech"
+languages: ["en", "es", "fr"]
+license: "Apache-2.0"
+interfaces:
+  protocol: "other"
+links:
+  repo: "https://github.com/govness-demo/pii-redaction-guardrail"
+domains: ["cybersecurity", "ai-governance"]
